@@ -39,21 +39,16 @@ This is a note-taking app that a user can add, edit, and delete memo. This proje
 #### PostMVP 
 - Add extra function to the app 
 
-## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Congifure Server | H | 1hr | -hr | -hr|
+| Congifure Server | H | 2hrs | -hr | -hr|
 | Create schema (models) | H | 1.5hrs | -hr | -hr|
 | Create route handlers (controllers) | H | 2hrs |-hr | -hr|
 | Create routes (routes) | H | 2hrs| -hr | -hr |
 | Test with Postman| H | 1hr | -hrs | -hr|
-| Total | H | 8hrs| -hrs | -hrs |
+| Total | H | 9hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
