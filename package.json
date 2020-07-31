@@ -1,0 +1,29 @@
+{
+  "name": "project2_back",
+  "version": "1.0.0",
+  "description": "|  Day | Deliverable | Status\r |---|---| ---|\r |Day 1| Project Description | Incomplete\r |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete\r |Day 2| Working RestAPI | Incomplete\r |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete\r |Day 4| MVP & Bug Fixes | Incomplete\r |Day 5| Final Touches and Present | Incomplete",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seolacarrano/project2_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seolacarrano/project2_back/issues"
+  },
+  "homepage": "https://github.com/seolacarrano/project2_back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
