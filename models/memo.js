@@ -8,10 +8,10 @@ const memoSchema = new Schema(
       note: {type: String, required: true},
       image: [{
           type: Schema.Types.ObjectId,
-          ref: 'Record'
+          ref: 'Image'
       }]
     },
-    {timestamps: false}
+    {timestamps: true}
 )
 
 module.exports = mongoose.model('Memo', artistSchema)

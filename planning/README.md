@@ -3,8 +3,8 @@
 ## Project Schedule
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -13,18 +13,17 @@
 ## Project Description
 This is a note-taking app that a user can add, edit, and delete memo. This project includes a custom API using MongoDB, Mongoose, and Express backend. The API will allow users to add, edit, and delete memo.
 
+## User Stories 
+- Users can create a new note
+- Users can add a picture to their note 
+- Users can edit their note
+- Users can delete their note 
+
 ## Google Sheet
 [Google Sheet](https://docs.google.com/spreadsheets/d/1PyCkPZeIBSzU58bRY3UI4p7iiJOjNmuEtmBo9yVgr8A/edit?usp=sharing) 
 
-## Wireframes
-- [Mobile](https://res.cloudinary.com/dqduwnrb1/image/upload/v1596164789/mobile_hsmlfi.jpg)
-- [Tablet](https://res.cloudinary.com/dqduwnrb1/image/upload/v1596164485/tablet_z6g4dt.jpg)
-- [Desktop](https://res.cloudinary.com/dqduwnrb1/image/upload/v1596164485/desktop_en4fqa.jpg)
-
-
 ## Time/Priority Matrix 
-
-[prioritized](https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing) 
+[Backend Matrix](https://docs.google.com/presentation/d/1NXjgKb0sx3a8bXva7Sy3hEhXmCKah-mM6NvYDY1d13w/edit?usp=sharing) 
 
 
 #### MVP (examples)
