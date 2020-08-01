@@ -4,7 +4,6 @@ const {Schema, model} = mongoose
 const noteSchema = new Schema(
     {
       title: {type:String, required: false},
-      //date: {type: Date, required: true},
       note: {type: String, required: true},
       image: [{
           type: Schema.Types.ObjectId,

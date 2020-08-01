@@ -13,26 +13,16 @@ const index = async (req, res) => {
     }
 }
 
-/*const index = async (req, res) => {
-    try {
-      const allNotes = await Note.find({});
-      //create a new array of rats with the pizza info
-      const notes = allNotes.map(async (rat) => {
-        const theImage = await Image.findById(note.image);
-        return {
-            _id: note._id,
-          title: note.title,
-          note: note.note,
-          image: theImage
-        };
-      });
-      console.log(images);
-      const notes2 = await Promise.all(notes);
-      await res.status(200).json(notes2);
-    } catch (error) {
-      res.status(400).send(error);
+//route to find a note by its title 
+const getOne = async (req, res) => {
+    try{
+    const oneNote = await Note.findOne({title: req.params.title})
+    res.status(200).json(oneNote)
     }
-  };*/
+    catch(error){
+        res.status(200).send(error)
+    }
+};
 
 //route to create a new note
 const create = async (req, res) => {
@@ -69,4 +59,4 @@ const destroy = async (req, res) => {
     }
 };
 
-module.exports = {index, create, update, destroy};
+module.exports = {index, getOne, create, update, destroy};
