@@ -15,7 +15,7 @@ This is a note-taking app that a user can add, edit, and delete memo. This proje
 
 ## User Stories 
 - Users can create a new note
-- Users can add a picture to their note 
+- Users can add picture to their note 
 - Users can edit their note
 - Users can delete their note 
 
