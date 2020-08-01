@@ -5,7 +5,8 @@ const app = express();
 const morgan = require("morgan"); 
 const cors = require("cors"); 
 const mongoose = require("mongoose"); 
-//const GifsRouter = require("./routes/gifs.js")
+const ImageRouter = require('./routes/image.js')
+const NoteRouter = require('./routes/note.js')
 
 //GlOBAL VARIABLES
 
@@ -56,7 +57,8 @@ app.use(express.static("public")); //Allows static serving of files from public 
 
 // ROUTES AND ROUTERS
 //These handle sending responses to server requests for spefic endpoints
-//app.use("/gifs", GifsRouter)
+app.use('/', ImageRouter)
+app.use('/', NoteRouter)
 
 //ROOT ROUTE (FOR TESTING)
 app.get("/", (req, res) => {
