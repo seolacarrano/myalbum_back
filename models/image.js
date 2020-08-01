@@ -4,9 +4,9 @@ const Schema = mongoose.Schema
 const imageSchema = new Schema(
     {
       url: {type:String, required: false}, //add alt 
-      comment: {type: String, required: false}
+      title: {type: String, required: require}
     },
-    {timestamps: false}
+    {timestamps: true}
 )
 
-module.exports = mongoose.model('Image', artistSchema)
+module.exports = mongoose.model('Image', imageSchema)

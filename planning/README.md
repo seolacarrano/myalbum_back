@@ -42,9 +42,9 @@ This is a note-taking app that a user can add, edit, and delete memo. This proje
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Congifure Server | H | 2hrs | -hr | -hr|
-| Create schema (models) | H | 1.5hrs | -hr | -hr|
-| Create route handlers (controllers) | H | 2hrs |-hr | -hr|
+| Congifure Server | H | 2hrs | 2hrs | 2hrs|
+| Create schema (models) | H | 1.5hrs | 1hr | 1hr| 
+| Create route handlers (controllers) | H | 2hrs | 1hr | 1hr|
 | Create routes (routes) | H | 2hrs| -hr | -hr |
 | Test with Postman| H | 1hr | -hrs | -hr|
 | Total | H | 9hrs| -hrs | -hrs |
