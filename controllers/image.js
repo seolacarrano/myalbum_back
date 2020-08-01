@@ -1,5 +1,5 @@
-const express = require('express');
-const router = express.Router();
+//const express = require('express');
+//const router = express.Router();
 const Image = require('../models/image.js');
 
 //route to list all images

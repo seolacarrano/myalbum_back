@@ -1,7 +1,5 @@
-const express = require('express');
-const router = express.Router();
-
-//import model
+//const express = require('express');
+//const router = express.Router();
 const Note = require('../models/note.js')
 //const Image = require('../models/image.js')
 
