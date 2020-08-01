@@ -57,8 +57,8 @@ app.use(express.static("public")); //Allows static serving of files from public 
 
 // ROUTES AND ROUTERS
 //These handle sending responses to server requests for spefic endpoints
-app.use('/', ImageRouter)
-app.use('/', NoteRouter)
+app.use('/image', ImageRouter)
+app.use('/note', NoteRouter)
 
 //ROOT ROUTE (FOR TESTING)
 app.get("/", (req, res) => {
