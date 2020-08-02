@@ -12,7 +12,7 @@ const NoteRouter = require('./routes/note.js')
 
 const PORT = process.env.PORT; 
 const NODE_ENV = process.env.NODE_ENV; 
-const mongoURI = process.env.mongoURI + "secondproject";
+const mongoURI = process.env.mongoURI + "image";
 const db = mongoose.connection; 
 const mongoConfigObject = { useNewUrlParser: true, useUnifiedTopology: true }; 
 

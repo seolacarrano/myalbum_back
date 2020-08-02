@@ -46,8 +46,8 @@ This is a note-taking app that a user can add, edit, and delete memo. This proje
 | Create schema (models) | H | 1.5hrs | 1hr | 1hr| 
 | Create route handlers (controllers) | H | 2hrs | 1hr | 1hr|
 | Create routes (routes) | H | 2hrs| 1.5hrs | 1.5hrs |
-| Test with Postman| H | 1hr | -hrs | -hr|
-| Total | H | 9hrs| -hrs | -hrs |
+| Test with Postman| H | 1hr | 2.5hrs | 2.5hr|
+| Total | H | 9hrs| 8hrs | 8hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
