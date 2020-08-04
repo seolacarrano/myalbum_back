@@ -6,7 +6,7 @@ const Note = require('../models/note.js')
 //route to list all notes
 const index = async (req, res) => {
     try{
-        const allNotes = await Note.find()
+        const allNotes = await Note.find().populate("image")
         res.status(200).json(allNotes)
     } catch (error) {
         res.status(400).json(error)
@@ -16,7 +16,7 @@ const index = async (req, res) => {
 //route to find a note by its title 
 const getOne = async (req, res) => {
     try{
-    const oneNote = await Note.findOne({title: req.params.title})
+    const oneNote = await (await Note.findOne({title: req.params.title})).populate("image")
     res.status(200).json(oneNote)
     }
     catch(error){
