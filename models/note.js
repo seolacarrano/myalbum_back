@@ -5,10 +5,10 @@ const noteSchema = new Schema(
     {
       title: {type:String, required: false},
       note: {type: String, required: true},
-      image: [{
+      image: {
           type: Schema.Types.ObjectId,
           ref: 'Image'
-      }]
+      }
     },
     {timestamps: true}
 )
