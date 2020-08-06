@@ -6,8 +6,8 @@
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -56,25 +56,25 @@ This is a note-taking app that a user can add, edit, and delete memo. This proje
 | Total | H | 3hrs| -hrs | -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+- [jQuery](https://jquery.com/)
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const index = async (req, res) => {
+    try{
+        const allNotes = await Note.find().populate("image")
+        res.status(200).json(allNotes)
+    } catch (error) {
+        res.status(400).json(error)
+    }
 }
 ```
+I learned how poplulate brings images
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: My schema had an array and it made my jQuery complicated                             
+**RESOLUTION**: I changed it to object and made it simple 
 
 ## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
+ - [portfolio project](https://github.com/seolacarrano/seola_firstproject/blob/master/README.md)
