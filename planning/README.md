@@ -70,7 +70,7 @@ const index = async (req, res) => {
     }
 }
 ```
-I learned how poplulate brings images
+I learned that populate let me reference documents in other collections.
 
 ## Issues and Resolutions
 **ERROR**: My schema had an array and it made my jQuery complicated                             
