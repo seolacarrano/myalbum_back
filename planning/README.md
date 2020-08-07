@@ -73,8 +73,8 @@ const index = async (req, res) => {
 I learned that populate let me reference documents in other collections.
 
 ## Issues and Resolutions
-**ERROR**: My schema had an array and it made my jQuery complicated                             
-**RESOLUTION**: I changed it to object and made it simple 
+**ERROR**: I had an issue on Postman - error: {"code":79,"codeName":"UnknownReplWriteConcern","name":"MongoWriteConcernError","result":{"n":1,"opTime":{"ts":"6856107580809281537","t":5}      
+**RESOLUTION**: I took out "&w=majority;'" this part of my mongoURI
 
 ## Previous Project Worksheet
  - [portfolio project](https://github.com/seolacarrano/seola_firstproject/blob/master/README.md)
