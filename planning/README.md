@@ -8,7 +8,7 @@
 |Day 2| Working RestAPI | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
-|Day 5| Final Touches and Present | Incomplete
+|Day 5| Final Touches and Present | Complete
 
 ## Project Description
 This is a note-taking app that a user can add, edit, and delete memo. This project includes a custom API using MongoDB, Mongoose, and Express backend. The API will allow users to add, edit, and delete memo.
